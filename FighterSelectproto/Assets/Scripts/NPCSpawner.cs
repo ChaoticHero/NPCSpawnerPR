@@ -10,7 +10,7 @@ namespace Pattern.FactoryMethod
         private INPC m_Beggar;
         private INPC m_Shopowner;
         private INPC m_Soldier;
-
+        private INPC m_Champion;
         public void SpawnVillagers()
         {
             
@@ -35,6 +35,11 @@ namespace Pattern.FactoryMethod
         {
             m_Soldier = m_Factory.GetNPC(NPCType.Soldier);
             m_Soldier.Speak();
+        }
+        public void GrandChampion()
+        {
+            m_Champion = m_Factory.GetNPC(NPCType.Champion);
+            m_Champion.Speak();
         }
     }
 }

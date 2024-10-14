@@ -20,6 +20,9 @@ namespace Pattern.FactoryMethod
                 case NPCType.Soldier:
                     INPC Soldier = new Soldier();
                     return Soldier;
+                case NPCType.Champion:
+                    INPC Champion = new Champion();
+                    return Champion;
             }
             return null;
         }

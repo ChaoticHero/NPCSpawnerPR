@@ -33,5 +33,9 @@ namespace Pattern.FactoryMethod
         {
             m_SpawnerNPC.Soldier();
         }
+        public void grandfighter()
+        {
+            m_SpawnerNPC.GrandChampion();
+        }
     }
 }

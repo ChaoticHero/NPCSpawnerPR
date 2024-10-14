@@ -9,6 +9,7 @@ namespace Pattern.FactoryMethod
            Farmer,
            Beggar,
            Shopowner,
-           Soldier
+           Soldier,
+           Champion
         }
 }
