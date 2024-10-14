@@ -13,8 +13,8 @@ namespace Pattern.FactoryMethod
 
         void OnGUI()
         {
-            GUI.color = Color.black;
-            GUI.Label(new Rect(10, 10, 200, 20), "Click on the button to spawn in a character.");
+            GUI.color = Color.white;
+            GUI.Label(new Rect(10, 10, 300, 20), "Click on the button to spawn in a character.");
             GUI.Label(new Rect(10, 30, 300, 20), "Try to find the secret info about the characters.");
         }
         public void timber()

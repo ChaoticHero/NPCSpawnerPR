@@ -690,8 +690,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: NPC Spawner
-  metroPackageVersion: 
+  metroPackageName: NPCSpawner
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -699,7 +699,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: NPC Spawner
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: NPC Spawner
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
